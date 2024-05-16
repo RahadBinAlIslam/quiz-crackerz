@@ -1,4 +1,13 @@
 .topic img {
   width: 250px;
   height: 250px;
+  background-color: #d6f2ff;
+}
+
+.topic-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 45px;
+  margin-right: 45px;
 }
