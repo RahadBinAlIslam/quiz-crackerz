@@ -22,7 +22,7 @@ const Statistics = () => {
   }, []);
 
   return (
-    <BarChart width={600} height={400} data={infos} className="position">
+    <BarChart width={420} height={195} data={infos} className="position">
       <Bar dataKey="total" fill="#8884d8" />
       <XAxis dataKey="name" />
       <YAxis />

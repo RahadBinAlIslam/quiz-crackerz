@@ -4,3 +4,9 @@
   gap: 25px;
   margin: 80px;
 }
+
+@media screen and (max-width: 455px) {
+  .topic-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
