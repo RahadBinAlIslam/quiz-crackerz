@@ -5,13 +5,13 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Topic = ({ topic }) => {
-  const { name, logo } = topic;
+  const { name, id, logo } = topic;
   return (
     <div className="topic">
       <img src={logo} alt=""></img>
       <div className="topic-details">
         <h5>{name}</h5>
-        <Link to="/questions">
+        <Link to={`/quiz/${id}`}>
           <div className="start-button">
             <h5>Start Practice</h5>
             <FontAwesomeIcon icon={faArrowRight} />

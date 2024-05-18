@@ -5,14 +5,12 @@ import "./Home.css";
 
 const Home = () => {
   const topics = useLoaderData();
-  const questions = useLoaderData();
   return (
     <div className="home-container">
       <div className="topic-container">
         {topics.data.map((topic) => (
           <Topic key={topic.id} topic={topic}></Topic>
         ))}
-        {questions.data.map}
       </div>
     </div>
   );
