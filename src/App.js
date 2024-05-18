@@ -31,6 +31,10 @@ function App() {
           //   fetch("https://openapi.programming-hero.com/api/quiz/${params.id}"),
           element: <Questions></Questions>,
         },
+        {
+          path: "*",
+          element: <div>404, not found!</div>,
+        },
       ],
     },
   ]);

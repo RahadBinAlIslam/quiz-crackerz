@@ -1,9 +1,9 @@
 import React from "react";
 
-const Questions = () => {
+const Questions = ({ topic }) => {
   return (
     <div>
-      <h2>Questions</h2>
+      <h2>Quiz of</h2>
     </div>
   );
 };

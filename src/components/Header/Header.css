@@ -6,6 +6,12 @@
   padding-right: 100px;
 }
 
+.anchor a {
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 2px 5px;
+}
+
 .nav-items {
   text-decoration: none;
 }

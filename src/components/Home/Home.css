@@ -1,5 +1,6 @@
 .topic-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 75px;
+  gap: 25px;
+  margin: 80px;
 }
