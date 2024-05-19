@@ -5,7 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Topic = ({ topic }) => {
-  const { name, id, logo } = topic;
+  const { name, id, logo, total } = topic;
   return (
     <div className="topic">
       <img src={logo} alt=""></img>
@@ -18,6 +18,7 @@ const Topic = ({ topic }) => {
           </div>
         </Link>
       </div>
+      <h5>Total Questions: {total}</h5>
     </div>
   );
 };
