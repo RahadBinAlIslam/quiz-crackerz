@@ -26,9 +26,7 @@ const Questions = ({ quiz }) => {
           name="topping"
           value={options[0]}
           id={options[0]}
-          onClick={() =>
-            options[0] === correctAnswer ? { correct } : { wrong }
-          }
+          onClick={options[0] === correctAnswer ? correct : wrong}
         />
         <ToastContainer />
         <label htmlFor={options[0]}>{options[0]}</label>
@@ -37,9 +35,7 @@ const Questions = ({ quiz }) => {
           name="topping"
           value={options[1]}
           id={options[1]}
-          onClick={() =>
-            options[1] === correctAnswer ? { correct } : { wrong }
-          }
+          onClick={options[1] === correctAnswer ? correct : wrong}
         />
         <ToastContainer />
         <label htmlFor={options[1]}>{options[1]}</label>
@@ -48,9 +44,7 @@ const Questions = ({ quiz }) => {
           name="topping"
           value={options[2]}
           id={options[2]}
-          onClick={() =>
-            options[2] === correctAnswer ? { correct } : { wrong }
-          }
+          onClick={options[2] === correctAnswer ? correct : wrong}
         />
         <ToastContainer />
         <label htmlFor={options[2]}>{options[2]}</label>
@@ -59,9 +53,7 @@ const Questions = ({ quiz }) => {
           name="topping"
           value={options[3]}
           id={options[3]}
-          onClick={() =>
-            options[3] === correctAnswer ? () => correct : () => wrong
-          }
+          onClick={options[3] === correctAnswer ? correct : wrong}
         />
         <ToastContainer />
         <label htmlFor={options[3]}>{options[3]}</label>
