@@ -16,10 +16,16 @@ const Blog = () => {
         easily through writing one single line of code rather than using
         useEffect and writing many lines of codes.
       </p>
-      <h3>Write a few sentences about useRef.</h3>
+      <h3>Write few sentences about useRef.</h3>
       <p>
         Ans: useRef is a React Hook that lets you reference a value that’s not
-        needed for rendering.
+        needed for rendering. useRef returns a ref object with a single current
+        property initially set to the initial value provided. By using a ref, we
+        ensure that: We can store information between re-renders (unlike regular
+        variables, which reset on every render). Changing it does not trigger a
+        re-render (unlike state variables, which trigger a re-render). The
+        information is local to each copy of your component (unlike the
+        variables outside, which are shared).
       </p>
     </div>
   );

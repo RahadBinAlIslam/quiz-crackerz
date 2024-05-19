@@ -2,12 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: blue;
   padding-left: 100px;
   padding-right: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .anchor a {
+  font-weight: 700;
   text-decoration: none;
   margin-right: 15px;
   padding: 2px 5px;
