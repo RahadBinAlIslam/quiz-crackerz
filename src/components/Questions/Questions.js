@@ -16,7 +16,7 @@ const Questions = ({ quiz }) => {
   return (
     <div>
       <h3>
-        Quiz : {question}{" "}
+        Quiz: {question}{" "}
         <FontAwesomeIcon icon={faEye} onClick={showCorrectAnswer} />
         <ToastContainer />
       </h3>
